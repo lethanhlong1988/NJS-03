@@ -8,9 +8,9 @@ const server = http.createServer((req, res) => {
   res.write("<head>");
 
   res.write("<head>");
-  res.write("<head><head>");
+  res.write("<head><title>My First Page</title><head>");
 
-  res.write("<body></body>");
+  res.write("<body><h3>Hello from my Node.js Server!!!</h3></body>");
   res.write("</html>");
 });
 server.listen(3000);
