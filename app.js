@@ -12,5 +12,6 @@ const server = http.createServer((req, res) => {
 
   res.write("<body><h3>Hello from my Node.js Server!!!</h3></body>");
   res.write("</html>");
+  res.end();
 });
 server.listen(3000);
